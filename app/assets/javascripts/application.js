@@ -15,3 +15,13 @@
 //= require turbolinks
 //= require_tree .
 //= require jquery.slick
+
+$(document).ready(function(){
+      $('.slider').slick({
+          //  setting-name: setting-value
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 4000,
+        });
+      });
