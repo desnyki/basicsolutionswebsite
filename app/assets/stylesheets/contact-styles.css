@@ -107,7 +107,24 @@ hr{
 label{
   display: block;
 }
-
+textarea.form-control{
+  width: 500px
+}
+.form-group, div.form-group input.form-control{
+  width: 500px;
+}
+div.form-group{
+  margin: 0 auto;
+  padding-left: 0;
+  padding-right: 0;
+}
+form>div{
+  padding: 15px;
+}
+form{
+  display: block;
+  margin: 0 auto;
+}
 /****************************/
 /********CONTACT BAR*********/
 
@@ -124,12 +141,7 @@ label{
   margin-top: 15px;
   color: white;
 }
-textarea{
-  width: 40%
-}
-form>div{
-  padding: 15px;
-}
+
 /***********************/
 /********FOOTER*********/
 
