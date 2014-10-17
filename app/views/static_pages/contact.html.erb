@@ -1,2 +1,35 @@
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+ <% provide(:sheet, "contact") %>
+ <!-- Main jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <h1>Contact Us</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="one" id="services">
+     <div class="container">
+      <!-- Row of columns -->
+        <div class="row">
+          <div class="col-md-12">
+            <div class="panel">
+              <h2>We want to hear from you! For general inquiries, or if you would like to get a project started, you can send us a message here. We can also be reached by phone at (416)-988-6039.</h2>
+              <form>
+                <div>
+                  <label>Email: </label>
+                  <input placeholder="example@email.com">
+                </div>
+                <div id="message">
+                  <label>Message: </label>
+                  <textarea rows="5" columns="800" placeholder="Your message here."></textarea>
+                </div>
+                <a class="btn btn-primary">Submit</a>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

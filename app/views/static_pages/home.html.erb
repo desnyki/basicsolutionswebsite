@@ -1,2 +1,89 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<% provide(:sheet, "home") %>
+    <!-- Main jumbotron -->
+    <div class="jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="slider">
+              <div>
+
+                <div class="slider-image"></div>
+                <div class="slider-text">
+                  <h1>Basic Solutions Inc.</h1>
+                  <p><span>Toronto, Canada's trusted company for IT solutions. Small or large buisnesses can take advantage of our competitive prices and quality solutions.</span></p>
+                </div>
+
+              </div>
+              <div>
+
+                <div class="slider-image"></div>
+                <div class="slider-text">
+                  <h1>IT solutions, for everyone!</h1>
+                  <p><span>We provide a variety of tech solutions guaranteed to fit your company's needs. From building a website to get your company noticed, to designing a database to streamline your work, we have the tools to let your business succeed.</span></p>
+                </div>
+                
+              </div>
+              <div>
+
+                <div class="slider-image"></div>
+                <div class="slider-text">
+                  <h1>Fast, personalized service.</h1>
+                  <p><span>At Basic Solutions Inc., we care about our customers. We work closely with clients and offer 24/7 supoprt to ensure personalized results and long-term satisfaction.</span></p>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bar"></div>
+    <div class="one" id="services">
+     <div class="container">
+      <!-- Example row of columns -->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="panel">
+              <img src="/assets/paint.png">
+              <h2>Web Design</h2>
+              <p>Give your business or organization an online presence with a beautiful and professional website.</p>
+              <p><%= link_to "Learn More", services_path, class: "btn btn-primary"%></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="panel">
+              <img src="/assets/database.png">
+              <h2>Database Development</h2>
+              <p>Keep your data organized for easy retrieval and use. We can help you choose the right data solution.</p>
+              <p><%= link_to "Learn More", services_path, class: "btn btn-primary"%></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="panel">
+              <img src="/assets/cloud.png">
+              <h2>Cloud Solutions</h2>
+              <p>Make your data seamlessly available from any device. We can make the migration to Cloud Storage simple.</p>
+              <p><%= link_to "Learn More", services_path, class: "btn btn-primary"%></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2">
+            <div class="panel">
+              <img src="/assets/group.png">
+              <h2>Social Media</h2>
+              <p>Connect with your customers using custom pages on all of the most popular social sites.</p>
+              <p><%= link_to "Learn More", services_path, class: "btn btn-primary"%></p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="panel">
+              <img src="/assets/ellipsis.png">
+              <h2>More</h2>
+              <p>Don't see what you're looking for? Let us know and we can work with you to come up with the perfect solution.</p>
+              <p><%= link_to "Contact us now", contact_path, class: "btn btn-primary"%></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
