@@ -12,6 +12,7 @@ body{
     border-color: #2980B9;
     border: 2px solid;
     width: 40%;
+    font-size: 16px;
 
 }
 .btn-primary:hover {
@@ -19,6 +20,7 @@ body{
     background-color: white;
     border-color: #2980B9;
     border: 2px solid;
+    font-size: 16px;
 }
 .btn-success {
     color: white;
@@ -110,7 +112,7 @@ label{
 textarea.form-control{
   width: 500px
 }
-.form-group, div.form-group input.form-control{
+div.form-group, div.form-group>input.form-control{
   width: 500px;
 }
 div.form-group{
