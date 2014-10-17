@@ -46,11 +46,6 @@ h3,h2{
     font-family: "Bariol_Bold";
     src: url(Bariol/Bariol_Bold/Bariol_Bold.otf);
 }
-@media only screen and (max-width: 1026px) { 
-  .slider div img { 
-    display: none; 
-  } 
-}
 /* Slick Arrows */
 
 .slick-prev, .slick-next { position: absolute; display: block; height: 70px; width: 70px; line-height: 0; font-size: 0; cursor: pointer; background: transparent; color: transparent; top: 45%; margin-top: -10px; padding: 0; border: none; outline: none; opacity: 0.6; }
@@ -184,5 +179,14 @@ hr{
   }
   .slider div h1{
     font-size: 30px;
+  }
+}
+@media only screen and (max-width: 480px) { 
+  .jumbotron{
+    background-image: none;
+    background-color: #2980B9;
+  }
+  body{
+    font-family: Helvetica, sans-serif;
   }
 }
