@@ -1,0 +1,165 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+/********DEFAULT STYLES*********/
+
+body{
+  font-family: "Bariol_Light", sans-serif;
+}
+
+.btn-primary {
+    color: #2980B9;
+    background-color: white;
+    border-color: white;
+
+}
+.btn-primary:hover {
+    color: white;
+    background-color: #E74C3C;
+    border-color: #E74C3C;
+}
+.btn-success {
+    color: white;
+    background-color: #E74C3C;
+    border-color: #E74C3C;
+}
+.btn-success:hover{
+    color: white;
+    background-color: #2980B9;
+    border-color: #2980B9;
+}
+h3,h2{
+  font-weight: 800;
+}
+@font-face {
+    font-family: "Bariol_Light";
+    src: url(/assets/Bariol_Light.otf);
+}
+@font-face {
+    font-family: "Bariol_Thin";
+    src: url(Bariol/Bariol_Thin/Bariol_Thin.otf);
+}
+@font-face {
+    font-family: "Bariol_Bold";
+    src: url(Bariol/Bariol_Bold/Bariol_Bold.otf);
+}
+@media only screen and (max-width: 1026px) { 
+  .slider div img { 
+    display: none; 
+  } 
+}
+
+
+/*************************************/
+/********JUMBOTRON*********/
+
+.jumbotron{
+	margin-top: 30px;
+	background: url(people.jpg) no-repeat fixed center top transparent;
+	color: white;
+	height: 170px;
+
+	margin-bottom: 0;
+}
+.bar{
+  background-color: #2C3E50;
+  width: 100%;
+  height: 20px;
+}
+
+/*************************/
+/********SERVICES*********/
+
+.one{
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+  width: 100%;
+}
+.one img{
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-right: 45px;
+}
+.one .right{
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-right: 0;
+  margin-left: 45px;
+}
+.one p{
+  font-size: 20px;
+  color: #777;
+}
+hr{
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+/****************************/
+/********CONTACT BAR*********/
+
+.contact{
+  background: #e74c3c;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact .container .row div~div{
+  border-left: 1px solid rgba(240,240,240,.2); 
+}
+.contact .container .row div{
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+textarea{
+  width: 40%
+}
+form>div{
+  padding: 15px;
+}
+/***********************/
+/********FOOTER*********/
+
+.bottom{
+	background-color: #2C3E50;
+}
+.bottom-links>li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+	margin-bottom: 0;
+	font-size: 1.5em;
+}
+.bottom-links li a{
+	text-decoration: none;
+	color: #50708f;
+}
+.bottom-social{
+  list-style: none;
+}
+.bottom-social>li{
+  display: inline-block;
+  padding: 15px;
+  padding-top: 30px;
+} 
+  
+@media only screen and (max-width: 960px) { 
+  .jumbotron { 
+    height: 600px;
+    text-align: center;
+  }
+  .slider div{
+    overflow: hidden;
+  }
+  .slider div p:first-of-type span{
+    background-color: transparent;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 1em;
+  }
+  .slider div h1{
+    font-size: 30px;
+  }
+}

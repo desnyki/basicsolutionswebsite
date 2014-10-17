@@ -1,0 +1,45 @@
+/****************************/
+/********CONTACT BAR*********/
+
+.contact{
+  background: #50708f;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.contact .container .row div~div{
+  border-left: 1px solid rgba(240,240,240,.2); 
+}
+.contact .container .row div{
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+/***********************/
+/********FOOTER*********/
+
+.bottom{
+	background-color: #2C3E50;
+}
+.bottom-links>li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+	margin-bottom: 0;
+	font-size: 1.5em;
+}
+.bottom-links li a{
+	text-decoration: none;
+	color: #50708f;
+}
+.bottom-social{
+  list-style: none;
+}
+.bottom-social>li{
+  display: inline-block;
+  padding: 15px;
+  padding-top: 30px;
+}
+.bottom-social>li>a{
+  color: #50708f;
+}
