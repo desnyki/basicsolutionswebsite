@@ -113,7 +113,7 @@ textarea.form-control{
   width: 500px
 }
 div.form-group, div.form-group>.form-control{
-  width: 500px;
+  width: 500px !important; 
 }
 div.form-group{
   margin: 0 auto;
