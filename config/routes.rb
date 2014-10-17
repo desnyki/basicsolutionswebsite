@@ -2,6 +2,7 @@ Basic::Application.routes.draw do
   root 'static_pages#home'
   get 'services'    => 'static_pages#services'
   get 'contact' => 'static_pages#contact'
+  match '/send_mail', to: 'contact_controller#send_mail', via: 'post'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
