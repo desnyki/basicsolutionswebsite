@@ -112,7 +112,7 @@ label{
 textarea.form-control{
   width: 500px
 }
-div.form-group, div.form-group>input.form-control{
+div.form-group, div.form-group>.form-control{
   width: 500px;
 }
 div.form-group{
