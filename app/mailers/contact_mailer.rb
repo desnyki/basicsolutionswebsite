@@ -1,4 +1,4 @@
-class MyMailer < ActionMailer::Base
+class ContactMailer < ActionMailer::Base
 
 	def contact_email(name, email, body)
         @name = name
