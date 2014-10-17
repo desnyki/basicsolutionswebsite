@@ -33,7 +33,7 @@ gem "font-awesome-rails"
 
 gem 'sprockets', '2.11.0'
 
-gem 'jquery-slick-rails'
+gem 'slick_rails'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
