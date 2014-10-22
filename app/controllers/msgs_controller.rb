@@ -1,6 +1,6 @@
 class MsgsController < ApplicationController
 	http_basic_authenticate_with name: "admin", password: "secret", except:
-	[:create, :new, :show]
+	[:create, :new]
 	def new
 		@msg = Msg.new
 	end
